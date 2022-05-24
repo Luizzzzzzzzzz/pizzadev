@@ -20,16 +20,23 @@
 
   <body>
     
-    <header>
-      <nav class="container">
+    <header id="header">
+      <nav class="container show">
         <a class="logo" href="#"><h1>Pizza <span> DEV </span></h1></a>
-        <div> <h1>...</h1> <div>
+
+        <div class="menu"><ul>
+          <li><a href="#home">inicio</a></li>
+          <li><a href="#serviço">serviço</a></li>
+          <li><a href="#sobre">sobre</a></li>
+          <li><a href="#contatos">contatos</a></li>
+        </ul></div>
+
       </nav>
     </header>
     
     <main>
       <!-- Página1 -->
-      <section class="home">
+      <section id="home">
         <div class="container">
           <div class="imagem">
             <img
@@ -45,35 +52,26 @@
           </div>
         </div>
       </section>
+      <div class="divider"></div>
 
       <!-- Página2 -->
-      <section><div class="container"></div></section>
-
-      <!-- Página3 -->
-      <section><div class="container"></div></section>
-
-      <!-- Página4 -->
-      <section><div class="container"></div></section>
-
-      <!-- Página5 -->
-      <section class="home">
+      <section id="serviço">
         <div class="container">
-          <div class="imagem">
-            <img
-            src="https://images.prismic.io/portal-de-planos/f76821e4-6ff1-48a6-87f0-059dc5277282_computador.jpg"
-            alt="imagem generica de um computador"
-            />
-          </div>
-
-          <div class="texto">
-            <a class="nome" href="#"><h1>Luiz Otavio de Gouvea <span>Freire</span></h1></a>
-            <p>ola bem-vind@ ao meu site</p>
-            <a href="https://www.youtube.com/" class="button">youtube</a>
-            <p>meu nome é Luiz,eu tenho 17 anos,sou de exatas,gosto de tecnologia,não gosto do formalismo excessivo das escolas...</p>
-            <p>as tags "a" criam um link no site,as tags "p" criam paragrafo em um texto, as tags "nav" serve pra isolar parte de codigo para organizar e a tag "span" serve para separa alguma parte de um texto</p>
-          </div>
         </div>
       </section>
+      <div class="divider"></div>
+      <!-- Página3 -->
+      <section id="sobre">
+        <div class="container">
+        </div>
+      </section>
+      <div class="divider"></div>
+      <!-- Página4 -->
+      <section id="contatos">
+        <div class="container">
+        </div>
+      </section>
+      <div class="divider"></div>
     </main>
     <footer></footer>
   </body>
