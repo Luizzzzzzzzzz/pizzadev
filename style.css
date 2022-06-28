@@ -87,6 +87,16 @@ section {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+#contatos .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+#contatos .texto p {
+  margin-bottom: 1.5rem;
+  margin-top: 1.2rem;
+}
 .button {
   background-color: var(--base-color);
   color: var(--text-color-light);
@@ -99,6 +109,8 @@ section {
 .button:hover {
   background-color: red;
 }
+
+
 .nome h1 {
   font: 400 2.5rem 'Dancing Script', Dancing-Script;
 }
@@ -189,4 +201,90 @@ nav.show div.icon-close {
   margin-bottom: 1.5rem;
   font-size: 5rem;
   color: var(--base-color);
+}
+.section .subtitle {
+  font-size: var(--subtitle-font-size);
+}
+#contatos .grid {
+  gap: 4rem;
+}
+
+#contatos .text p {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+#contatos .button {
+  margin-top: 1.5rem;
+}
+
+#contatos .button i {
+  font-size: 1.5rem;
+  margin-right: 0.675rem;
+}
+
+#contatos ul.grid {
+  gap: 1.5rem;
+}
+
+#contatos ul li i {
+  color: var(--base-color);
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+}
+
+#contatos .align_button {
+  text-align: center;
+}
+
+#contatos .container {
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contatos .text {
+  max-width: 25rem;
+}
+
+#contatos .align_button {
+  text-align: left;
+}
+footer {
+  background: var(--base-color);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a {
+  margin-right: 2rem;
+}
+
+footer .container {
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+:root {
+  --title-font-size: 2.25rem;
+  --subtitle-font-size: 1.125rem;
+}
+footer .logo h1 {
+  color: black;
+}
+footer .logo span {
+  color: white;
 }
